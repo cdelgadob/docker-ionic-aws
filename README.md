@@ -4,20 +4,20 @@
 ----
 ### Pull from Docker Hub
 ```
-docker pull cdelgadob/ionic-aws:latest
+docker pull cdelgadob/docker-ionic-aws:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t cdelgadob/ionic-aws github.com/cdelgadob/docker-ionic-aws
+docker build -t cdelgadob/docker-ionic-aws github.com/cdelgadob/docker-ionic-aws
 ```
 
 ### Run image
 ```
-docker run -it cdelgadob/ionic-aws bash
+docker run -it cdelgadob/docker-ionic-aws bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM cdelgadob/ionic-aws:latest
+FROM cdelgadob/docker-ionic-aws:latest
 ```
